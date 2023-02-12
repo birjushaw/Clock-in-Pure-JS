@@ -1,0 +1,46 @@
+
+body{
+    background-image: url(bc4.png) ;
+}
+#clock-Container{
+   
+    background: transparent;
+    position: relative;
+    top: 180px;
+    margin: auto;
+    
+    height: 40vw;
+    width: 40vw;
+    background: url(n.png) no-repeat; 
+    background-size: 100%;
+
+}
+#houre, #minute, #seconds{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#houre{
+    width: 1.1%;
+    height: 11%;
+    top: 37.7%;
+    left: 50.6%;
+ 
+}
+
+#minute{
+    width: 1.1%;
+    height: 17%;
+    top: 31.7%;
+    left: 50.6%;
+   
+}
+
+#seconds{
+   
+    width: 1.1%;
+    height: 24.5%;
+    top: 23.9%;
+    left: 50.6%;
+}
